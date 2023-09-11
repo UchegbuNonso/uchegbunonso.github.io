@@ -1,3 +1,5 @@
+
+
 (function () {
     [...document.querySelectorAll(".control")].forEach(button => {
         button.addEventListener("click", function() {
@@ -31,7 +33,7 @@ function pageTransition(){
     // ======section active class=====//
 
     allSections.addEventListener('click', (e)=>{
-        // console.log(e.target);
+        console.log(e.target);
         const id = e.target.dataset.id;
         if (id) {
             /*remove selected from other btn*/
